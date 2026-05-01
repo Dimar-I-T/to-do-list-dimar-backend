@@ -9,7 +9,7 @@ const userRoute = require('./src/routes/user.route');
 const taskRoute = require('./src/routes/task.route');
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://to-do-list-dimar.vercel.app/'], 
+  origin: ['http://localhost:3000', 'https://to-do-list-dimar.vercel.app'], 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,               
 }));
